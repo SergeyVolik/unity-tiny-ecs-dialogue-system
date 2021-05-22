@@ -1,0 +1,27 @@
+/*GridBackground {
+    --grid-background-color: #282828;
+    --grid-color: rgba(193, 196, 192, 0.1);
+    --thick-line-color: rgba(193, 196, 192, 0.1);
+    --spacing:10;
+}
+*/
+
+/*.toggleLeft {
+    flex-direction: row;
+    width: 50%;
+}
+
+.toggleRight {
+    flex-direction: row-reverse;
+     width: 50%;
+}*/
+
+VisualElement #toggleLeft {
+    flex-direction: row;
+    width: 50%;
+}
+
+VisualElement #toggleRight {
+    flex-direction: row-reverse;
+     width: 50%;
+}

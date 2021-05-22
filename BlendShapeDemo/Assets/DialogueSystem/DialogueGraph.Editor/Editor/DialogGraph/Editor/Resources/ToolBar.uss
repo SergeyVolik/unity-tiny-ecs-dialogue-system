@@ -1,0 +1,10 @@
+
+.toggleLeft {
+    flex-direction: row;
+    width: 50%;
+}
+
+.toggleRight {
+    flex-direction: row-reverse;
+     width: 50%;
+}

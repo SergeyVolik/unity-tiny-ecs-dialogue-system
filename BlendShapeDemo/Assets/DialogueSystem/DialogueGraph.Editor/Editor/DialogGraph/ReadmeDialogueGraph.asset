@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7fd844b9ea3214ab7d3eb1cdc2a80a, type: 3}
+  m_Name: ReadmeDialogueGraph
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: bf2f51ab7fc96574ba7a5a52ba79ff1c, type: 3}
+  title: Dialogue Graph (FAQ)
+  sections:
+  - heading: How Create?
+    text: For create dialogue asset use Asset/Create/SV/Dialogue
+    linkText: 
+    url: 
+  - heading: How use?
+    text: --
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: Git link
+    url: https://github.com/SergeyVolik/unity-unility-ai
+  loadedLayout: 1

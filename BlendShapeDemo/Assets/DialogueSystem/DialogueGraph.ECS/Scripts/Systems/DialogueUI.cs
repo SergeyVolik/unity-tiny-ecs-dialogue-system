@@ -55,7 +55,7 @@ public class DialogueUI : SystemBase
                 {
                     UnityEngine.Debug.Log("Dialogue 1 started");
                     dialogueSingleton.DialogueExist = true;
-                    EntityManager.AddComponent<DialogueContinue>(buttonEntity);
+                    EntityManager.AddComponent<DialogueInit>(buttonEntity);
 
                     dialogueSingleton.Entity = buttonEntity;
                     SetSingleton<CurrentDialogueSingleton>(dialogueSingleton);

@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 169390439}
   - component: {fileID: 169390438}
   m_Layer: 5
-  m_Name: 'NPC_TEXT '
+  m_Name: NpcText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,9 +506,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 452969604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6098604686d2c164eb2b22f4176bb135, type: 3}
+  m_Script: {fileID: 11500000, guid: ea432becda7ae0541a726dfe2762cd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogueNodeIndex: 0
 --- !u!1 &512252256
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,9 +940,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 672673679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6098604686d2c164eb2b22f4176bb135, type: 3}
+  m_Script: {fileID: 11500000, guid: ea432becda7ae0541a726dfe2762cd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogueNodeIndex: 0
 --- !u!1 &689367312
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +955,7 @@ GameObject:
   - component: {fileID: 689367313}
   - component: {fileID: 689367315}
   - component: {fileID: 689367314}
-  - component: {fileID: 689367316}
+  - component: {fileID: 689367318}
   m_Layer: 5
   m_Name: ChoiceText4
   m_TagString: Untagged
@@ -1080,7 +1082,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689367312}
   m_CullTransparentMesh: 0
---- !u!114 &689367316
+--- !u!114 &689367318
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1089,7 +1091,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 689367312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0699473d53fdc346abc3e8c1eccee48, type: 3}
+  m_Script: {fileID: 11500000, guid: e1b365fa3aff47f429b1406229d22a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &760958564
@@ -1344,7 +1346,7 @@ GameObject:
   - component: {fileID: 965908499}
   - component: {fileID: 965908501}
   - component: {fileID: 965908500}
-  - component: {fileID: 965908502}
+  - component: {fileID: 965908504}
   m_Layer: 5
   m_Name: ChoiceText3
   m_TagString: Untagged
@@ -1471,7 +1473,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965908498}
   m_CullTransparentMesh: 0
---- !u!114 &965908502
+--- !u!114 &965908504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1480,7 +1482,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 965908498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0699473d53fdc346abc3e8c1eccee48, type: 3}
+  m_Script: {fileID: 11500000, guid: e1b365fa3aff47f429b1406229d22a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1025800367
@@ -1712,7 +1714,7 @@ GameObject:
   - component: {fileID: 1259373847}
   - component: {fileID: 1259373849}
   - component: {fileID: 1259373848}
-  - component: {fileID: 1259373850}
+  - component: {fileID: 1259373852}
   m_Layer: 5
   m_Name: ChoiceText2
   m_TagString: Untagged
@@ -1839,7 +1841,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259373846}
   m_CullTransparentMesh: 0
---- !u!114 &1259373850
+--- !u!114 &1259373852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1848,7 +1850,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1259373846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0699473d53fdc346abc3e8c1eccee48, type: 3}
+  m_Script: {fileID: 11500000, guid: e1b365fa3aff47f429b1406229d22a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1314436649
@@ -1862,7 +1864,7 @@ GameObject:
   - component: {fileID: 1314436650}
   - component: {fileID: 1314436652}
   - component: {fileID: 1314436651}
-  - component: {fileID: 1314436653}
+  - component: {fileID: 1314436655}
   m_Layer: 5
   m_Name: ChoiceText5
   m_TagString: Untagged
@@ -1989,7 +1991,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314436649}
   m_CullTransparentMesh: 0
---- !u!114 &1314436653
+--- !u!114 &1314436655
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1998,7 +2000,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1314436649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0699473d53fdc346abc3e8c1eccee48, type: 3}
+  m_Script: {fileID: 11500000, guid: e1b365fa3aff47f429b1406229d22a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1453231182
@@ -2131,9 +2133,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1453231182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6098604686d2c164eb2b22f4176bb135, type: 3}
+  m_Script: {fileID: 11500000, guid: ea432becda7ae0541a726dfe2762cd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogueNodeIndex: 0
 --- !u!1 &1527805003
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,7 +2381,7 @@ GameObject:
   - component: {fileID: 1716764343}
   - component: {fileID: 1716764345}
   - component: {fileID: 1716764344}
-  - component: {fileID: 1716764346}
+  - component: {fileID: 1716764348}
   m_Layer: 5
   m_Name: ChoiceText1
   m_TagString: Untagged
@@ -2505,7 +2508,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716764342}
   m_CullTransparentMesh: 0
---- !u!114 &1716764346
+--- !u!114 &1716764348
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2514,7 +2517,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1716764342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0699473d53fdc346abc3e8c1eccee48, type: 3}
+  m_Script: {fileID: 11500000, guid: e1b365fa3aff47f429b1406229d22a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1815819142
@@ -2919,9 +2922,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1962691162}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6098604686d2c164eb2b22f4176bb135, type: 3}
+  m_Script: {fileID: 11500000, guid: ea432becda7ae0541a726dfe2762cd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogueNodeIndex: 0
 --- !u!1 &2023548127
 GameObject:
   m_ObjectHideFlags: 0
@@ -3052,6 +3056,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2023548127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6098604686d2c164eb2b22f4176bb135, type: 3}
+  m_Script: {fileID: 11500000, guid: ea432becda7ae0541a726dfe2762cd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogueNodeIndex: 0

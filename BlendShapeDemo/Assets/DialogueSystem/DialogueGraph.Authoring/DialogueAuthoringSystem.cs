@@ -5,7 +5,7 @@ using SV.DialogueGraph.Authoring.Tiny;
 namespace SV.DialogueGraph.Authoring
 {
 
-
+    [ConverterVersion("DialogueConverter", 3)]
     [WorldSystemFilter(WorldSystemFilterFlags.DotsRuntimeGameObjectConversion)]
     public class DialogueAuthoringSystem : GameObjectConversionSystem
     {

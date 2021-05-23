@@ -18,33 +18,36 @@ MonoBehaviour:
     PortName: start
     TargetNodeGuid: 1941ff67-61df-4a21-9427-8242191d4ab8
   - BaseNodeGuid: fa452634-215e-45b9-a7e2-5b11ccced9a9
-    PortName: "\u0414\u0430."
+    PortName: yes?
     TargetNodeGuid: a20d8920-f38b-4b0a-ae8e-9f322462fd0e
   - BaseNodeGuid: 1941ff67-61df-4a21-9427-8242191d4ab8
-    PortName: "\u041F\u0440\u0438\u0432\u0435\u0442."
+    PortName: Hello
     TargetNodeGuid: fa452634-215e-45b9-a7e2-5b11ccced9a9
   - BaseNodeGuid: 1941ff67-61df-4a21-9427-8242191d4ab8
-    PortName: "\u041A\u0442\u043E \u0442\u044B?"
+    PortName: Hi
     TargetNodeGuid: 37405259-114c-4c8f-a1a9-d0698ac10d75
   - BaseNodeGuid: 37405259-114c-4c8f-a1a9-d0698ac10d75
-    PortName: "\u0422\u044B \u043C\u043D\u0435 \u043D\u0435 \u043D\u0440\u0430\u0432\u0438\u0448\u044C\u0441\u044F."
-    TargetNodeGuid: 155251a8-5a0c-437f-9fd0-d6d466935f07
+    PortName: I dont remember
+    TargetNodeGuid: a20d8920-f38b-4b0a-ae8e-9f322462fd0e
+  - BaseNodeGuid: 37405259-114c-4c8f-a1a9-d0698ac10d75
+    PortName: I am ...
+    TargetNodeGuid: a20d8920-f38b-4b0a-ae8e-9f322462fd0e
   DialogNodeData:
-  - GUID: fa452634-215e-45b9-a7e2-5b11ccced9a9
-    DialogText: "\u0422\u044B \u0447\u0442\u043E \u0437\u0430\u0431\u043B\u0443\u0434\u0438\u043B\u0441\u044F?"
-    Position: {x: 785, y: 178}
   - GUID: 1941ff67-61df-4a21-9427-8242191d4ab8
-    DialogText: "\u041F\u0440\u0438\u0432\u0435\u0442!"
+    DialogText: Hi!
     Position: {x: 385, y: 147}
-  - GUID: 37405259-114c-4c8f-a1a9-d0698ac10d75
-    DialogText: "\u0422\u0435\u0431\u0435 \u043B\u0443\u0447\u0435 \u043D\u0435 \u0437\u043D\u0430\u0442\u044C."
-    Position: {x: 677, y: 360}
-  - GUID: 155251a8-5a0c-437f-9fd0-d6d466935f07
-    DialogText: "\u041A\u043E\u043D\u0435\u0446"
-    Position: {x: 987, y: 507}
   - GUID: a20d8920-f38b-4b0a-ae8e-9f322462fd0e
-    DialogText: "\u041A\u043E\u043D\u0435\u0446"
+    DialogText: End
     Position: {x: 1156, y: 247}
+  - GUID: 155251a8-5a0c-437f-9fd0-d6d466935f07
+    DialogText: 0
+    Position: {x: 986, y: 436}
+  - GUID: 37405259-114c-4c8f-a1a9-d0698ac10d75
+    DialogText: Who are  you?
+    Position: {x: 613, y: 369}
+  - GUID: fa452634-215e-45b9-a7e2-5b11ccced9a9
+    DialogText: I know you
+    Position: {x: 756, y: 133}
   ExposedProperties: []
   Comments: []
   GraphGroups: []
